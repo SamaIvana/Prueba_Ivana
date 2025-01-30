@@ -21,7 +21,7 @@
 
             if ($result->num_rows > 0) {
                 // Mostrar cursos disponibles
-                while ($curso = $result->fetch_assoc()) {
+                while ($curso = $result->fetch_assoc()) {rm
                     echo "<div class='cursos-item'>";
                     echo "<h2>" . htmlspecialchars($curso['nombre']) . "</h2>";
                     echo "<p> $" . htmlspecialchars($curso['precio']) . "</p>";
