@@ -1,0 +1,165 @@
+body{/*ICSS DE LA INSCRIPCION PARA LOS CURSOS*/
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #c0eaf7, #8c818f);
+    color: #778bb1;
+    height: 100vh
+}
+
+.contenedor{
+    width: 80%;
+    margin: 20px auto;
+}
+/*FORMULARIO SDE INSCRIPCION*/
+.form_inscripcion {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #b9d4e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #714d5f;
+    text-align: center;
+}
+
+/* Encabezado */
+.form_inscripcion h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #a3d0f8;
+}
+
+/* Campos de entrada */
+.form_inscripcion input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a6b0b9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botón de registro */
+.form_inscripcion button {
+    padding: 10px 20px;
+    background-color: #48343e;
+    color: #a3b6bc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form_inscripcion button:hover {
+    background-color: #e8f1f4;
+}
+
+/* CSS  DE LOS CURSOS*/
+.contenedor {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: rgb(69, 104, 110);
+    text-align: center;
+}
+
+
+.lista_cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cursos-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background-color: #46485e;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #92d5e6;
+}
+
+/*deatalles css*/
+.item-detalles {
+    background-color: #fff;
+    border: 1px solid #8eeaf1;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    text-align: center;
+}
+
+.item-detalles h1 {
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+
+/*REGISTO EXITOSO PAGINA*/
+body.contenedorExito{
+    background: #c4d1ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.conten-exito{
+    padding: 20px;
+    flex-direction: column;
+    /* width: 300px; */
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.fa-circle-check{
+    font-size: 48px;
+    padding: 30px;
+    color: rgb(92, 104, 115);
+}
+
+.conten-exito h1{
+    padding: 0;
+    margin: 0;
+    color: rgb(130, 117, 129);
+}
+
+.conten-exito p{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.conten-exito button{
+    padding: 10px;
+    border-radius: 20px;
+    background: #000;
+    color: #7878ac;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+
+.conten-exito button:hover{
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba( 0, 0, 0,4);
+}
